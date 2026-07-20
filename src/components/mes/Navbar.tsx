@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo-mes.png.asset.json";
+import logo from "@/assets/logo-mes.png";
 
 const links = [
   { href: "#quem-somos", label: "Quem Somos" },
@@ -32,7 +32,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
         <a href="#top" className="flex items-center gap-2 shrink-0" aria-label="Montijo Energia do Sol">
-          <img src={logo.url} alt="Montijo Energia do Sol" className="h-10 w-auto sm:h-11" />
+          <img src={logo} alt="Montijo Energia do Sol" className="h-10 w-auto sm:h-11" />
         </a>
         <ul className="hidden lg:flex items-center gap-8">
           {links.map((l) => (

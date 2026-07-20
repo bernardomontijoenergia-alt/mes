@@ -1,5 +1,5 @@
 import { MapPin, Phone, Smartphone, Instagram } from "lucide-react";
-import logo from "@/assets/logo-mes.png.asset.json";
+import logo from "@/assets/logo-mes.png";
 
 
 const nav = [
@@ -16,7 +16,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16">
         <div className="grid gap-10 lg:grid-cols-[1.2fr_1fr_1fr]">
           <div>
-            <img src={logo.url} alt="Montijo Energia do Sol" className="h-16 w-auto" />
+            <img src={logo} alt="Montijo Energia do Sol" className="h-16 w-auto" />
             <p className="mt-5 max-w-sm text-sm text-foreground/70 leading-relaxed">
               Infraestrutura de recarga elétrica movida por energia solar
               própria, expandindo o acesso à mobilidade limpa no Brasil.

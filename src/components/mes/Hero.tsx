@@ -1,5 +1,5 @@
 import { ArrowRight, MapPin } from "lucide-react";
-import logo from "@/assets/logo-mes.png.asset.json";
+import logo from "@/assets/logo-mes.png";
 import { Reveal } from "./Reveal";
 
 export function Hero() {
@@ -8,7 +8,7 @@ export function Hero() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8 text-center">
         <Reveal>
           <img
-            src={logo.url}
+            src={logo}
             alt="Montijo Energia do Sol"
             className="mx-auto h-28 sm:h-36 w-auto"
             fetchPriority="high"
