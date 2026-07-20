@@ -1,0 +1,9 @@
+# Montijo Energia do Sol
+
+> Infraestrutura brasileira de recarga elétrica 100% solar, com eletropostos de 120 kW (CCS2) em Belo Horizonte e Ribeirão das Neves (MG).
+
+Montijo Energia do Sol (MES) é uma empresa de mobilidade elétrica sustentável que opera eletropostos alimentados por energia solar própria, gerada em usina em Ribeirão das Neves (MG). Recarga rápida via conector CCS2, gestão energética inteligente e pagamento 100% digital.
+
+## Pages
+
+- [Início](/): Landing page institucional com informações sobre a empresa, infraestrutura, eletropostos, sustentabilidade, especificações técnicas e contato.
